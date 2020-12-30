@@ -3,8 +3,9 @@
   "short_name": "BT",
   "description": "A budget tracker app that supports offline access and saves transactions until the device is connected to the internet, then it sync the saved transactions to the server.",
   "start_url": "./index.html",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#01579b",
+  "theme_color": "#ffffff",
+  "display": "standalone",
   "icons": [
     {
       "src": "./icons/icon-72x72.png",
