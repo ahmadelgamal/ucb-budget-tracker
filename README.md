@@ -53,7 +53,7 @@ https://github.com/ahmadelgamal/ucb-budget-tracker
 1. Install `MongoDB`.
 1. Download or Clone this repository.
 1. If you downloaded the zipped version of this repo, then unzip it in the desired directory.
-1. Go to the command line (if you're not there already).
+1. Go to the command line, if you're not there already.
 1. Change the directory to `ucb-budget-tracker`.
 1. Run: `npm install`.
 1. Create a `MongoDB Atlas` Account, if you don't have one already.
