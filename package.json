@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/ahmadelgamal/ucb-budget-tracker/issues"
   },
-  "homepage": "https://github.com/ahmadelgamal/ucb-budget-tracker#readme",
+  "homepage": "https://ucb-budget-tracker.herokuapp.com/",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
