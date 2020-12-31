@@ -59,6 +59,7 @@ https://github.com/ahmadelgamal/ucb-budget-tracker
 1. Create a `MongoDB Atlas` Account, if you don't have one already.
 1. Create a Production Database in Atlas.
 1. Create a `Heroku` Account, if you don't have one already.
+1. Install `Heroku CLI`.
 1. Create a `Heroku App`.
 1. Set Up the Environment Variable in `Heroku`.
 1. Deploy to `Heroku`.
