@@ -29,6 +29,7 @@ A budget-tracking PWA that saves offline transactions and uploads them once conn
 - [Features](#Features)
 - [Pre-Requisites](#Pre-Requisites)
 - [Installation](#Installation)
+- [Cloning](#Cloning)
 - [Usage](#Usage)
 - [Technologies Used](#Technologies-Used)
 - [Questions](#Questions)
@@ -65,10 +66,13 @@ https://github.com/ahmadelgamal/ucb-budget-tracker
 1. Reconnect to the internet and hit refresh.
 1. The offline transactions should stay (persist) in the browser.
 
+### Optional
+1. Open a `MongoDB` GUI, such as `MongoDB Compass`.
+1. Connect to the database (db): `mongodb://localhost/budget`.
+1. Monitor the updates to the db in response to the added transactions.
+
 ### Screenshot / Gif Animation
-![Screenshot / Gif Animation](./assets/images/screenshot.gif)
-
-
+![Screenshot / Gif Animation](./public/images/screenshot.png)
 
 ## Technologies Used
 1. JavaScript
@@ -78,12 +82,7 @@ https://github.com/ahmadelgamal/ucb-budget-tracker
 1. Mongoose.js
 1. IndexedDB
 1. Service Worker
-1. Manifest.json
-1. 
-
-
-
-
+1. Manifest.json 
 
 ## Questions
 Please send your questions and / or comments to **Ahmad El Gamal** at ahmadelgamal@gmail.com, or contact me on [GitHub](https://github.com/ahmadelgamal).
