@@ -68,7 +68,7 @@ https://github.com/ahmadelgamal/ucb-budget-tracker
 
 ### Optional
 1. Open a `MongoDB` GUI, such as `MongoDB Compass`.
-1. Connect to the database (db): `mongodb://localhost/budget`.
+1. Connect to the database (db): `mongodb://localhost/budget-tracker`.
 1. Monitor the updates to the db in response to the added transactions.
 
 ### Screenshot / Gif Animation
