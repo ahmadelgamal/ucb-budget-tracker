@@ -28,7 +28,6 @@ A budget-tracking PWA that saves offline transactions and uploads them once conn
 
 - [Deployment URL](#Deployment-URL)
 - [Repo URL](#Repo-URL)
-- [Features](#Features)
 - [Pre-Requisites](#Pre-Requisites)
 - [Installation](#Installation)
 - [Cloning](#Cloning)
