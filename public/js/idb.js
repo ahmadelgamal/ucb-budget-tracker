@@ -22,9 +22,9 @@ request.onerror = function(event) {
 };
 
 function saveRecord(record) {
-  const transaction = db.transaction(['new_transaction'], 'readwrite');
+  const trans = db.transaction(['new_transaction'], 'readwrite');
 
-  const transactionObjectStore = transaction.objectStore('new_transaction');
+  const transactionObjectStore = trans.objectStore('new_transaction');
 
   // add record to your store with add method.
   transactionObjectStore.add(record);
@@ -32,10 +32,10 @@ function saveRecord(record) {
 
 function uploadTransactions() {
   // open a transaction on your pending db
-  const transaction = db.transaction(['new_transaction'], 'readwrite');
+  const trans = db.transaction(['new_transaction'], 'readwrite');
 
   // access your pending object store
-  const transactionObjectStore = transaction.objectStore('new_transaction');
+  const transactionObjectStore = trans.objectStore('new_transaction');
 
   // get all records from store and set to a variable
   const getAll = transactionObjectStore.getAll();
@@ -43,7 +43,7 @@ function uploadTransactions() {
   getAll.onsuccess = function() {
     // if there was data in indexedDb's store, let's send it to the api server
     if (getAll.result.length > 0) {
-      fetch('/api/transaction', {
+      fetch('/api/transaction/bulk', {
         method: 'POST',
         body: JSON.stringify(getAll.result),
         headers: {
@@ -57,8 +57,8 @@ function uploadTransactions() {
             throw new Error(serverResponse);
           }
 
-          const transaction = db.transaction(['new_transaction'], 'readwrite');
-          const transactionObjectStore = transaction.objectStore('new_transaction');
+          const trans = db.transaction(['new_transaction'], 'readwrite');
+          const transactionObjectStore = trans.objectStore('new_transaction');
           // clear all items in your store
           transactionObjectStore.clear();
         })

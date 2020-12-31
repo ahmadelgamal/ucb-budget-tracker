@@ -28,7 +28,6 @@ A budget-tracking PWA that saves offline transactions and uploads them once conn
 
 - [Deployment URL](#Deployment-URL)
 - [Repo URL](#Repo-URL)
-- [Pre-Requisites](#Pre-Requisites)
 - [Installation](#Installation)
 - [Cloning](#Cloning)
 - [Usage](#Usage)
@@ -44,22 +43,26 @@ https://ucb-budget-tracker.herokuapp.com/
 
 https://github.com/ahmadelgamal/ucb-budget-tracker
 
-## Pre-Requisites
-
-1. Install `node.js`.
-1. Install `MongoDB`.
-
 ## Installation
 
-1. This is a web-app. There is no installation required. Simply navigate to the deployment url.
+1. This is a web-app. There is no installation required. Simply navigate to the [deployment url](https://ucb-budget-tracker.herokuapp.com/).
 
 ## Cloning
 
+1. Install `node.js`.
+1. Install `MongoDB`.
 1. Download or Clone this repository.
 1. If you downloaded the zipped version of this repo, then unzip it in the desired directory.
 1. Go to the command line (if you're not there already).
 1. Change the directory to `ucb-budget-tracker`.
 1. Run: `npm install`.
+1. Create a `MongoDB Atlas` Account, if you don't have one already.
+1. Create a Production Database in Atlas.
+1. Create a `Heroku` Account, if you don't have one already.
+1. Create a `Heroku App`.
+1. Set Up the Environment Variable in `Heroku`.
+1. Deploy to `Heroku`.
+
 
 ## Usage
 
